@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Guoxuan Ma's Personal Webpage</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <!-- tooplate style -->
+
+    <script>
+        var renderPage = true;
+
+        if (navigator.userAgent.indexOf('MSIE') !== -1
+            || navigator.appVersion.indexOf('Trident/') > 0) {
+            /* Microsoft Internet Explorer detected in. */
+            alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+            renderPage = false;
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <div class="container">
+        <section class="tm-section-head" id="top">
+            <header id="header" class="text-center tm-text-gray">
+                <h1>Guoxuan Ma</h1>
+                <p> I am a Ph.D. candidate in economics at the Pennsylvania State University</p>
+            </header>
+
+            <nav class="navbar narbar-light">
+                <a class="navbar-brand tm-text-gray" href="#">
+                    Menu
+                </a>
+                <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-navicon tm-fa-toggler-icon"></i>
+                    </span>
+                </button>
+                <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="#top">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="#tm-section-2">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="#tm-section-3">Vite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="#tm-section-6">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="navbar navbar-default navbar-fixed-top">
+                <a href="/index.html" class="navbar-brand"></a>
+                <botton class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </botton>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="mydropdown">
+
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#tm-section-2">Research</a>
+                    </li>
+                    <li>
+                        <a href="#tm-section-4">Vite</a>
+                    </li>
+                    <li>
+                        <a href="#tm-section-6">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="row" id="tm-section-1">
+            <div class="col-lg-12 tm-slider-col">
+                <div class="tm-img-slider">
+                    <div class="tm-img-slider-item" href="img/gallery-img-01.jpg">
+                        <p class="tm-slider-caption">Penn State Old Main Building</p>
+                        <img src="img/gallery-img-01.jpg" alt="Image" class="tm-slider-img">
+                    </div>
+                    <div class="tm-img-slider-item" href="img/gallery-img-02.jpg">
+                        <p class="tm-slider-caption">Curabitur justo nisl, elementum a mollis sed.</p>
+                        <img src="img/gallery-img-02.jpg" alt="Image" class="tm-slider-img">
+                    </div>
+                    <div class="tm-img-slider-item" href="img/gallery-img-03.jpg">
+                        <p class="tm-slider-caption">Penn State Kern Building</p>
+                        <img src="img/gallery-img-03.jpg" alt="Image" class="tm-slider-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tm-section-2 tm-section-mb" id="tm-section-2">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5">
+                    <header class="text-center">
+                        <i class="fa fa-4x fa-gavel pl-5 pb-5 pr-5 pt-2"></i>
+                        <!-- <i class="fa fa-4x fa-power-off pl-5 pb-5 pr-5 pt-2"></i> -->
+                    </header>
+
+                    <h2>Resarch in Auction</h2>
+                    <p>The research is about how bidders strategic bidding behavior affect the auction outcome based on Chinese Justice Auction</p>
+
+                    <a href="#tm-section-3" class="btn tm-btn-pad-2 float-right">Learn More</a>
+
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5">
+                    <header class="text-center">
+                        <i class="fa fa-4x fa-industry pl-5 pb-5 pr-5 pt-2"></i>
+                    </header>
+                    <h2>Research in Firm Dynamics</h2>
+                    <p>This research investigate the impact of financial distress on heterogeneous young firms' short- and long-run growth patterns 
+                    </p>
+
+                    <a href="#tm-section-4" class="btn tm-btn-pad-2 float-right">Learn More</a>
+                </div>
+
+                 <!-- <div class="col-xl-4 col-lg-4 col-md-12"></div> -->
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5">
+                    <header class="text-center">
+                        <i class="fa fa-4x fa-power-off pl-5 pb-5 pr-5 pt-2"></i>
+                    </header>
+                    <h2>Research in Other Field</h2>
+                    <p>I also have interest in monetary policy, corporate finance, etc
+                    </p>
+                    <a href="#tm-section-4" class="btn tm-btn-pad-2 float-right">Learn More</a>
+                </div>
+
+            </div>
+        </section>
+
+<!--         <section class="tm-section-3 tm-section-mb" id="tm-section-3">
+            <div class="row">
+                <div class="col-md-6 tm-mb-sm-4 tm-2col-l">
+                    <div class="image">
+                        <img src="img/tm-img-1.jpg" class="img-fluid" />
+                    </div>
+                    <div class="tm-box-3">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor
+                            velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat
+                            lacus placerat malesuada.</p>
+                        <div class="text-center">
+                            <a href="#tm-section-5" class="btn btn-big">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 tm-2col-r">
+                    <div class="image">
+                        <img src="img/tm-img-2.jpg" class="img-fluid" />
+                    </div>
+                    <div class="tm-box-3">
+                        <header>
+                            <h2>Vestibulum sit amet</h2>
+                        </header>
+                        <p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor
+                            velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat
+                            lacus placerat malesuada.</p>
+                        <div class="text-center">
+                            <a href="#tm-section-5" class="btn btn-big">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+<!--         <section class="tm-section-4 tm-section-mb" id="tm-section-4">
+            <div class="row">
+            </div>
+        </section> -->
+
+        <section class="tm-section-5" id="tm-section-5">
+            <h2> Research Papers</h2>
+            <div class="row">
+<!--                 <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="image fit">
+                        <img src="img/tm-sc4-img-1.jpg" class="img-fluid">
+                    </div>
+                </div>
+
+ -->
+<!-- <div class="col-lg-4 col-md-12 col-sm-12">
+<a href="#tm-section-4" class="btn tm-btn-pad-2 ">Learn More</a>
+</div> -->      
+                <div class="col-lg-12 tm-slider-col">
+                <!-- <div class="col-lg-8 col-md-12 col-sm-12 pl-lg-0"> -->
+                    <div class="media tm-media">
+                        <img src="img/sc4-img-2.jpg" class="img-responsive tm-media-img">
+                        <div class="media-body tm-box-5">
+                            <h2>project 1 </h2>
+                            <p class="mb-0">abstract </p>
+                        </div>
+                    </div>
+                    <div class="media tm-media">
+                        <img src="img/sc4-img-3.jpg" class="img-responsive tm-media-img">
+                        <div class="media-body tm-box-5">
+                            <h2>project 2 </h2>
+                            <p class="mb-0">abstract</p>
+                        </div>
+                    </div>
+                    <div class="media tm-media">
+                        <img src="img/sc4-img-4.jpg" class="img-responsive tm-media-img">
+                        <div class="media-body tm-box-5">
+                            <h2>project 3</h2>
+                            <p class="mb-0"> abstract</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="tm-section-6" id="tm-section-6">
+            <div class="row">
+               <div class="col-md-6 tm-2col-r">
+                    <div class="image">
+                        <img src="img/tm-img-2.jpg" class="img-fluid" />
+                    </div>
+                    
+<!--                     <div class="tm-box-3">
+                        <header>
+                            <h2>Vestibulum sit amet</h2>
+                        </header>
+                        <p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor
+                            velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat
+                            lacus placerat malesuada.</p>
+                        <div class="text-center">
+                            <a href="#tm-section-5" class="btn btn-big">Details</a>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-xs-12 tm-contact-right">
+                    <div class="tm-address-box">
+                        <h2 class="mb-4">Contact Me</h2>
+                        <p class="mb-5"> I will graduate in 2022</p>
+                        <address>
+                            313 Kern Building
+                            <br> University Park,
+                            <br> Pennsylvania, 16802
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="mt-5">
+            <p class="text-center">Copyright © 2020 Guoxuan Ma</p>
+        </footer>
+    </div>
+
+    <!-- load JS files -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- https://popper.js.org/ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- Slick Carousel -->
+
+    <script>
+        function setCarousel() {
+            var slider = $('.tm-img-slider');
+
+            if (slider.hasClass('slick-initialized')) {
+                slider.slick('destroy');
+            }
+
+            if ($(window).width() > 991) {
+                // Slick carousel
+                slider.slick({
+                    autoplay: true,
+                    fade: true,
+                    speed: 800,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+            } else {
+                slider.slick({
+                    autoplay: true,
+                    fade: true,
+                    speed: 800,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+            }
+        }
+
+        $(document).ready(function () {
+            if (renderPage) {
+                $('body').addClass('loaded');
+            }
+
+            setCarousel();
+
+            $(window).resize(function () {
+                setCarousel();
+            });
+
+            // Close menu after link click
+            $('.nav-link').click(function () {
+                $('#mainNav').removeClass('show');
+            });
+
+            // https://css-tricks.com/snippets/jquery/smooth-scrolling/
+            // Select all links with hashes
+            $('a[href*="#"]')
+                // Remove links that don't actually link to anything
+                .not('[href="#"]')
+                .not('[href="#0"]')
+                .click(function (event) {
+                    // On-page links
+                    if (
+                        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                        &&
+                        location.hostname == this.hostname
+                    ) {
+                        // Figure out element to scroll to
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        // Does a scroll target exist?
+                        if (target.length) {
+                            // Only prevent default if animation is actually gonna happen
+                            event.preventDefault();
+                            $('html, body').animate({
+                                scrollTop: target.offset().top + 1
+                            }, 1000, function () {
+                                // Callback after animation
+                                // Must change focus!
+                                var $target = $(target);
+                                $target.focus();
+                                if ($target.is(":focus")) { // Checking if the target was focused
+                                    return false;
+                                } else {
+                                    $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                    $target.focus(); // Set focus again
+                                };
+                            });
+                        }
+                    }
+                });
+        });
+    </script>
+
+</body>
+
+</html>
